@@ -174,4 +174,5 @@ console.log(joe.scopeArrow());
 //
 // 3. Explain why "this" is different when an arrow function is used.
 // Answer : Arrow functio expressions are ill suited as methods, and they cannot be used as constructors.
+// also the this keyword is not defined in the arrow functions therfore we have to avoid using arrow funstions in constructors.
 //
